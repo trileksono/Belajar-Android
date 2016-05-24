@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicAuthExample</string>
+
+    <!-- Login screen -->
+    <string name="login">Login</string>
+    <string name="login_lblExample">Example Spring Boot API</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_btnLogin">LOGIN</string>
+</resources>

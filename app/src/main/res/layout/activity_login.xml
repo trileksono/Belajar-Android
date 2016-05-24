@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="80dp">
+
+        <TextView
+            android:id="@+id/lbl_login1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_marginTop="50dp"
+            android:textSize="25dp"
+            android:textColor="@color/biruLaut"/>
+
+        <TextView
+            android:id="@+id/lbl_login2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lbl_login1"
+            android:text="@string/login_lblExample"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_login2"
+            android:layout_marginTop="30dp"
+            android:hint="@string/login_username"/>
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_username"
+            android:hint="@string/login_password"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"/>
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_password"
+            android:layout_marginTop="10dp"
+            android:background="@color/biruLaut"
+            android:textColor="@android:color/white"
+            android:text="@string/login_btnLogin"/>
+    </RelativeLayout>
+</RelativeLayout>
